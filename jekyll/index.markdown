@@ -5,8 +5,16 @@
 layout: home
 ---
 
-# Welcome to My Jekyll Site
+## Links to Websites
 
-This is a simple Jekyll site.
-
-Test
+<div class="links-container">
+  <a href="https://www.example.com">
+    <img src="/path/to/website1-image.jpg" alt="Website 1" />
+  </a>
+  <a href="https://www.example2.com">
+    <img src="/path/to/website2-image.jpg" alt="Website 2" />
+  </a>
+  <a href="https://www.example3.com">
+    <img src="/path/to/website3-image.jpg" alt="Website 3" />
+  </a>
+</div>
