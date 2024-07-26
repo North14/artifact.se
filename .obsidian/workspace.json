@@ -8,15 +8,11 @@
         "type": "tabs",
         "children": [
           {
-            "id": "359016d9dac6c710",
+            "id": "a8cc5f7ab2ecf41b",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "_posts/testing.md",
-                "mode": "source",
-                "source": false
-              }
+              "type": "empty",
+              "state": {}
             }
           }
         ]
@@ -85,7 +81,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "_posts/testing.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +97,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "_posts/testing.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -124,9 +118,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "_posts/testing.md"
-              }
+              "state": {}
             }
           }
         ]
@@ -146,8 +138,53 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "359016d9dac6c710",
+  "active": "a8cc5f7ab2ecf41b",
   "lastOpenFiles": [
+    "_site/welcome-to-jekyll/index.html",
+    "_site/welcome-to-jekyll",
+    "_site/first-mass-produced/index.html",
+    "_site/first-mass-produced",
+    "_site/education/index.html",
+    "_site/education",
+    "_site/acumulated-experience/index.html",
+    "_site/acumulated-experience",
+    "_site/about-bundler/index.html",
+    "_site/about-bundler",
+    "_site/we-all-wait-for-summer/index.html",
+    "_site/assets/images/screenshot.jpg",
+    "_site/assets/images/jekyll.svg",
+    "_site/assets/images/home.jpg",
+    "_site/assets/images/demo1.jpg",
+    "_site/assets/images/avatar2.jpg",
+    "_site/assets/images/avatar1.jpg",
+    "_site/assets/images/9.jpg",
+    "_site/assets/images/8.jpg",
+    "_site/assets/images/7.jpg",
+    "_site/assets/images/6.jpg",
+    "_site/README.md",
+    "_posts/2019-02-03-powerful-things-markdown-editor.md",
+    "_posts/2019-02-02-first-mass-produced.md",
+    "_posts/2019-02-01-education.md",
+    "_posts/2019-01-30-acumulated-experience.md",
+    "_posts/2019-01-29-about-bundler.md",
+    "_posts/2019-01-28-we-all-wait-for-summer.md",
+    "_posts/2019-01-27-tree-of-codes.md",
+    "_posts/2019-01-26-red-riding.md",
+    "_posts/2019-01-25-press-and-education.md",
+    "_posts/2019-01-24-powerful-things-markdown-editor.md",
+    "_posts/2019-01-23-options-for-creating-new-site-with-jekyll.md",
+    "_posts/2019-01-22-never-stopped-worrying-never-loved-bomb.md",
+    "_posts/2019-01-21-is-intelligence-enough.md",
+    "_posts/2019-01-20-quick-start-guide.md",
+    "_posts/2019-01-19-markup-example.md",
+    "_posts/2019-01-18-customer-service.md",
+    "_posts/2019-01-18-charm-old-cities.md",
+    "_pages/privacy-policy.md",
+    "_pages/contact.md",
+    "_pages/buy-me-a-coffee.md",
+    "_pages/about.md",
+    "_posts/2024-07-25-welcome-to.md",
+    "_posts/2024-07-26-welcome-to-jekyll.md",
     "_posts/testing.md"
   ]
 }
