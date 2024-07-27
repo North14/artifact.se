@@ -1,6 +1,6 @@
 ---
 layout: post
-title: My Philosophy of Life
+title: Thoughts on Life
 author: admin
 categories:
   - Spirituality

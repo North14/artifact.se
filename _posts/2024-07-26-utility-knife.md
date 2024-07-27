@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Knifemaking Guide
+title: Knifemaking Guide - Utility
 author: admin
 categories:
   - Other
