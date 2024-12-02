@@ -26,6 +26,13 @@ authors:
       bio:            "Cybersecurity student with a deep interest in tech, nature, cooking, art, and spirituality."
       email:          admin@artifact.se
       twitter:        https://x.com/artifact_se
+    chatgpt:
+      name:           ChatGpt
+      #      site:           https://www.artifact.se
+      avatar:         assets/images/avatar2.jpg
+      bio:            "Content produced with the use of ChatGPT"
+      email:          admin@artifact.se
+      twitter:        https://x.com/artifact_se
 
 # Defaults
 defaults:
