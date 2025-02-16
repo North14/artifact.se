@@ -51,6 +51,12 @@ defaults:
     values:
       layout: page
       
+# Collections
+collections:
+  knives:
+    output: true
+    permalink: /knives/:title/
+
 # Syntax
 markdown: kramdown
 highlighter: rouge

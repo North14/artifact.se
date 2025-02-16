@@ -1,0 +1,20 @@
+---
+layout: default
+title: "Knife Showcase"
+permalink: /knives/
+---
+
+<h1>Knife Showcase</h1>
+<p>Handcrafted knives, blending traditional techniques with modern craftsmanship.</p>
+
+<ul>
+  {% for knife in site.knives %}
+    <li>
+      <a href="{{ knife.url | relative_url }}">
+        <img src="{{ knife.image | relative_url }}" alt="{{ knife.title }}" style="width: 150px;">
+        <strong>{{ knife.title }}</strong>
+      </a>
+    </li>
+  {% endfor %}
+</ul>
+
