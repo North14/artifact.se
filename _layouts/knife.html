@@ -2,10 +2,26 @@
 layout: default
 ---
 
-<h1>{{ page.title }}</h1>
-<img src="{{ page.image | relative_url }}" alt="{{ page.title }}" style="width: 100%; max-width: 600px;">
-<p><strong>Steel:</strong> {{ page.steel }}</p>
-<p><strong>Handle Material:</strong> {{ page.handle_material }}</p>
-<p><strong>Description:</strong> {{ page.description }}</p>
-<a href="/knives/">← Back to all knives</a>
+<article class="post">
+  <header class="post-header">
+    <h1 class="post-title">{{ page.title }}</h1>
+  </header>
+
+  <div class="post-content">
+    <figure>
+      <img src="{{ page.image | relative_url }}" alt="{{ page.title }}" style="width: 100%; max-width: 600px;">
+      <figcaption>{{ page.title }}</figcaption>
+    </figure>
+
+    <p><strong>Steel:</strong> {{ page.steel }}</p>
+    <p><strong>Handle Material:</strong> {{ page.handle_material }}</p>
+    <p><strong>Description:</strong> {{ page.description }}</p>
+
+    <div class="knife-details">
+      {{ content }}
+    </div>
+
+    <p><a href="/knives/">← Back to all knives</a></p>
+  </div>
+</article>
 
