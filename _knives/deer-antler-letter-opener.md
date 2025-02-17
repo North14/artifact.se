@@ -4,8 +4,8 @@ title: "Deer Antler Letter Opener"
 date: 2025-02-16
 categories: [Knives, Small Knives]
 tags: [antler, brass, birch, letter opener]
-image: /assets/images/deer-antler-letter-opener/20250216_175656.jpg
-gallery_path: /assets/images/deer-antler-letter-opener/
+image: assets/images/deer-antler-letter-opener/20250216_175656.jpg
+gallery_path: assets/images/deer-antler-letter-opener/
 description: "A handcrafted letter opener made from deer antler, brass, and birch wood."
 author: ChatGPT
 ---

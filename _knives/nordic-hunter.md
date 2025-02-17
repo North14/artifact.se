@@ -1,7 +1,7 @@
 ---
 layout: knife
 title: "Nordic Hunter"
-image: "/assets/images/nordic-hunter.jpg"
+image: "assets/images/nordic-hunter.jpg"
 steel: "1095 High Carbon Steel"
 handle_material: "Reindeer Antler & Birch"
 description: "A robust hunting knife with a traditional Scandinavian design."
