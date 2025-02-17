@@ -64,12 +64,8 @@ layout: default
                     <div class="col-md-4 col-sm-6 mb-3">
                         <img class="img-fluid rounded" src="{{ site.baseurl }}{{ image.path }}" alt="Image: {{ image.path | split: '/' | last }}">
                     </div>
-                {% elsif forloop.first %}
-                    <p>No additional images found.</p>
                 {% endif %}
             {% endfor %}
-        {% else %}
-            <p>No images found.</p>
         {% endif %}
     </div>
 </div>
