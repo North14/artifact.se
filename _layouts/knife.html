@@ -58,14 +58,10 @@ layout: default
             {% assign main_image = page.image | split: '/' | last %}
             
             {% for image in site.static_files %}
-                {% assign image_dir = image.path | split: '/' | slice: 0, 2 | join: '/' | append: '/' %}
+                {% assign image_dir = image_folder %}
                 {{ page.image }} <!-- Should print the image path" -->
-                {{ testing1 }} <!-- Should print the image path" -->
-                {{ testing2 }} <!-- Should print the image path" -->
-                {{ testing3 }} <!-- Should print the image path" -->
                 {{ image_folder }} <!-- Should print the target folder, e.g., "assets/images/knives/" -->
 {{ image_dir }} <!-- Should print the folder of the current image, e.g., "assets/images/knives/" -->
-{{ image_extension }} <!-- Should print the file extension, e.g., "jpg" -->
                 {% if image_dir == image_folder and image.path != page.image %}
                     <div class="col-md-4 col-sm-6 mb-3">
                         <img class="img-fluid rounded" src="{{ site.baseurl }}{{ image.path }}" alt="Image: {{ image.path | split: '/' | last }}">
