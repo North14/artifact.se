@@ -54,12 +54,16 @@ layout: default
     <h2 class="font-weight-bold">Gallery</h2>
     <div class="row">
         {% if page.image %}
+            {% assign testing = page.image %}
+            {% assign testing2 = testing | split: '/' | slice: 0, -1 | join: '/' | append: '/' %}
             {% assign image_folder = page.image | split: '/' | slice: 0, -1 | join: '/' | append: '/' %}
             {% assign main_image = page.image | split: '/' | last %}
             
             {% for image in site.static_files %}
                 {% assign image_dir = image.path | split: '/' | slice: 0, -1 | join: '/' | append: '/' %}
                 {{ page.image }} <!-- Should print the image path" -->
+                {{ testing }} <!-- Should print the image path" -->
+                {{ testing2 }} <!-- Should print the image path" -->
                 {{ image_folder }} <!-- Should print the target folder, e.g., "assets/images/knives/" -->
 {{ image_dir }} <!-- Should print the folder of the current image, e.g., "assets/images/knives/" -->
 {{ image_extension }} <!-- Should print the file extension, e.g., "jpg" -->
