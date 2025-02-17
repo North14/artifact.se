@@ -54,16 +54,18 @@ layout: default
     <h2 class="font-weight-bold">Gallery</h2>
     <div class="row">
         {% if page.image %}
-            {% assign testing = "assets/images/deer-antler-letter-opener/20250216_175656.jpg" %}
-            {% assign testing2 = testing | split: '/' %}
-            {% assign image_folder = "assets/images/deer-antler-letter-opener/20250216_175656.jpg" | split: '/' | slice: 0, -1 | join: '/' | append: '/' %}
+            {% assign testing1 = page.image | split: '/' | slice: 0, -1 %}
+            {% assign testing2 = page.image | split: '/' | slice: 0, -1 | join: '/' %}
+            {% assign testing3 = page.image | split: '/' | slice: 0, -1 | join: '/' | append: '/' %}
+            {% assign image_folder = page.image | split: '/' | slice: 0, -1 | join: '/' | append: '/' %}
             {% assign main_image = page.image | split: '/' | last %}
             
             {% for image in site.static_files %}
                 {% assign image_dir = image.path | split: '/' | slice: 0, -1 | join: '/' | append: '/' %}
                 {{ page.image }} <!-- Should print the image path" -->
-                {{ testing }} <!-- Should print the image path" -->
+                {{ testing1 }} <!-- Should print the image path" -->
                 {{ testing2 }} <!-- Should print the image path" -->
+                {{ testing3 }} <!-- Should print the image path" -->
                 {{ image_folder }} <!-- Should print the target folder, e.g., "assets/images/knives/" -->
 {{ image_dir }} <!-- Should print the folder of the current image, e.g., "assets/images/knives/" -->
 {{ image_extension }} <!-- Should print the file extension, e.g., "jpg" -->
