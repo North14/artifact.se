@@ -15,6 +15,27 @@ description: "A great Jekyll theme developed by Sal @wowthemesnet."
     
 <!-- Begin post excerpts, let's highlight the first 4 posts on top -->
 <div class="row remove-site-content-margin">
+     <div class="container mt-4">
+       <h2 class="text-center mb-4">Featured Knives</h2>
+       <div class="row">
+           {% assign featured_knives = site.knives | sort: "date" | reverse | slice: 0, 4 %}
+           {% for knife in featured_knives %}
+               <div class="col-md-3 mb-4">
+                   <div class="card">
+                       {% if knife.image %}
+                           <img src="{{ site.baseurl }}/{{ knife.image }}" class="card-img-top" alt="{{ knife.title }}">
+                       {% endif %}
+                       <div class="card-body">
+                           <h5 class="card-title">{{ knife.title }}</h5>
+                           <p class="card-text">{{ knife.description | truncate: 100 }}</p>
+                           <a href="{{ site.baseurl }}{{ knife.url }}" class="btn btn-primary">View Knife</a>
+                       </div>
+                   </div>
+               </div>
+           {% endfor %}
+       </div>
+    </div>
+
     
     <!-- latest post -->
     {% assign latest_post = site.posts[0] %}
