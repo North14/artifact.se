@@ -55,11 +55,11 @@ layout: default
     <div class="row">
         {% if page.image %}
             {% assign page_image = page.image | prepend: '/' %}
-            {% assign image_folder = page_image | split: '/' | slice: 0, 3 | join: '/' | append: '/' %}
+            {% assign image_folder = page_image | split: '/' | slice: 0, 4 | join: '/' | append: '/' %}
             {% assign main_image = page_image | split: '/' | last %}
             
             {% for image in site.static_files %}
-                {% assign image_dir = image.path | split: '/' | slice: 0, 3 | join: '/' | append: '/' %}
+                {% assign image_dir = image.path | split: '/' | slice: 0, 4 | join: '/' | append: '/' %}
                 {{ image.path }} <!-- Should print the image path" -->
                 {{ page_image }} <!-- Should print the page image path" -->
                 {% if image.path == page_image %}
