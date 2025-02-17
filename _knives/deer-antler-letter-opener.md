@@ -16,15 +16,5 @@ This small handcrafted knife is designed for precision and elegance, making it t
 - **Blade:** Small and sharp, ideal for letter opening  
 - **Use:** Lightweight, decorative, and functional  
 
-### **Gallery**
-{% assign main_image = page.image %}
-{% assign gallery_path = page.gallery_path %}
-{% assign all_images = site.static_files | where: "path", gallery_path %}
-{% for file in all_images %}
-  {% unless file.path == main_image %}
-    <img src="{{ file.path }}" alt="Knife Image" class="img-fluid mb-3">
-  {% endunless %}
-{% endfor %}
-
 A great addition to any desk or collection, this handcrafted knife blends traditional craftsmanship with practical use.
 

@@ -23,12 +23,15 @@ description: "A great Jekyll theme developed by Sal @wowthemesnet."
                <div class="col-md-3 mb-4">
                    <div class="card">
                        {% if knife.image %}
-                           <img src="{{ site.baseurl }}/{{ knife.image }}" class="card-img-top" alt="{{ knife.title }}">
+                       <a href="{{ knife.url }}" class="text-decoration-none">
+                           <img src="{{ site.baseurl }}/{{ knife.image }}" class="img-fluid rounded mb-2" alt="{{ knife.title }}">
+                       </a>
                        {% endif %}
                        <div class="card-body">
-                           <h5 class="card-title">{{ knife.title }}</h5>
+                           <a href="{{ knife.url }}" class="text-decoration-none">
+                               <h4 class="card-title">{{ knife.title }}</h5>
+                           </a>
                            <p class="card-text">{{ knife.description | truncate: 100 }}</p>
-                           <a href="{{ site.baseurl }}{{ knife.url }}" class="btn btn-primary">View Knife</a>
                        </div>
                    </div>
                </div>

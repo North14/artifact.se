@@ -49,6 +49,22 @@ layout: default
 			    {{ content }}
 			</article>
 			
+            <!-- Gallery Section -->
+            <div class="mt-5">
+                <h2 class="font-weight-bold">Gallery</h2>
+                <div class="row">
+                    {% assign image_folder = page.image | split: '/' | slice: 0, -1 | join: '/' %}
+                    {% assign main_image = page.image | split: '/' | last %}
+                    
+                    {% for image in site.static_files %}
+                        {% if image.path contains image_folder and image.path != page.image %}
+                            <div class="col-md-4 col-sm-6 mb-3">
+                                <img class="img-fluid rounded" src="{{ site.baseurl }}{{ image.path }}" alt="Knife Image">
+                            </div>
+                        {% endif %}
+                    {% endfor %}
+                </div>
+            </div>
 			<!-- Tags -->
 			<div class="mb-4">
 				<span class="taglist">
