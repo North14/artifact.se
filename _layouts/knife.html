@@ -55,7 +55,7 @@ layout: default
     <div class="row">
         {% if page.image %}
             {% assign testing = "assets/images/deer-antler-letter-opener/20250216_175656.jpg" %}
-            {% assign testing2 = testing | split: '/' | slice: 0, -1 | join: '/' | append: '/' %}
+            {% assign testing2 = testing | split: '/' %}
             {% assign image_folder = "assets/images/deer-antler-letter-opener/20250216_175656.jpg" | split: '/' | slice: 0, -1 | join: '/' | append: '/' %}
             {% assign main_image = page.image | split: '/' | last %}
             
