@@ -55,7 +55,7 @@ layout: default
     <div class="row">
         {% if page.image %}
             {% assign testing1 = page.image | split: '/' %}
-            {% assign testing2 = page.image | split: '/' | slice: 0, -1 %}
+            {% assign testing2 = page.image | split: '/' | slice: 0 %}
             {% assign testing3 = page.image | split: '/' | slice: 0, -1 | join: '/' | append: '/' %}
             {% assign image_folder = page.image | split: '/' | slice: 0, -1 | join: '/' | append: '/' %}
             {% assign main_image = page.image | split: '/' | last %}
