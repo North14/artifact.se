@@ -58,7 +58,7 @@ layout: default
             {% assign main_image = page.image | split: '/' | last %}
             
             {% for image in site.static_files %}
-                {% assign image_dir = image.path | remove: image.basename | remove: image.extname %}
+                {% assign image_dir = image.path | split: '/' | slice: 0, -1 | join: '/' | append: '/' %}
                 {% if image_dir == image_folder and image.path != page.image %}
                     <div class="col-md-4 col-sm-6 mb-3">
                         <img class="img-fluid rounded" src="{{ site.baseurl }}{{ image.path }}" alt="Image: {{ image.path | split: '/' | last }}">
