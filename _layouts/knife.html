@@ -51,31 +51,27 @@ layout: default
 			
             <!-- Gallery Section -->
             <div class="mt-5">
-                <h2 class="font-weight-bold">Gallery</h2>
-                <div class="row">
-                          {% if page.image %}
+    <h2 class="font-weight-bold">Gallery</h2>
+    <div class="row">
+        {% if page.image %}
             {% assign image_folder = page.image | split: '/' | slice: 0, -1 | join: '/' | append: '/' %}
             {% assign main_image = page.image | split: '/' | last %}
             
             {% for image in site.static_files %}
                 {% assign image_dir = image.path | remove: image.basename | remove: image.extname %}
-                {% if image_dir == image_folder %}
-                            <div class="col-md-4 col-sm-6 mb-3">
-                                <img class="img-fluid rounded" src="{{ site.baseurl }}{{ image.path }}" alt="Image: {{ image.path | split: '/' | last }}">
-                            </div>
-                        {% endif %}
-                    {% endfor %}
-                    {% endif %}
-                </div>
-            </div>
-			<!-- Tags -->
-			<div class="mb-4">
-				<span class="taglist">
-				{% for tag in page.tags %}
-				  <a class="sscroll btn btn-light btn-sm font-weight-bold" href="{{site.baseurl}}/tags.html#{{ tag | downcase }}">{{ tag | downcase }}</a>
-				{% endfor %}
-				</span>
-			</div>
+                {% if image_dir == image_folder and image.path != page.image %}
+                    <div class="col-md-4 col-sm-6 mb-3">
+                        <img class="img-fluid rounded" src="{{ site.baseurl }}{{ image.path }}" alt="Image: {{ image.path | split: '/' | last }}">
+                    </div>
+                {% elsif forloop.first %}
+                    <p>No additional images found.</p>
+                {% endif %}
+            {% endfor %}
+        {% else %}
+            <p>No images found.</p>
+        {% endif %}
+    </div>
+</div>
 
             <!-- Author Box -->
             {% if page.author %}				
