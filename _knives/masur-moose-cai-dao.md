@@ -10,7 +10,7 @@ tags:
   - birch
   - kitchen
   - moose
-image: assets/images/deer-antler-letter-opener/20250216_175656.jpg
+image: assets/images/masur-moose-cai-dao/20240921_112552.jpg
 description: A Chinese vegetable cleaver with a wa-handle using Scandinavian materials.
 author: Artifact
 steel: Repurposed Carbon Steel
