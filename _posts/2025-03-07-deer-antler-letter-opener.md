@@ -5,7 +5,7 @@ date: 2025-03-07
 author: admin
 categories: [knifemaking, craftsmanship]
 tags: [knives, craftsmanship, outdoors, handmade, antler]
-image: "/assets/images/deer-antler-letter-opener-photoshoot/20250223_151616.jpg" 
+image: "assets/images/deer-antler-letter-opener-photoshoot/20250223_151616.jpg" 
 ---
 
 # **A Letter Opener with a Story**  
