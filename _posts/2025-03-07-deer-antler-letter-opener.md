@@ -32,22 +32,22 @@ The sawmill stands still now, its machines silent. Once, it was a place where wo
 
 ### **Gallery**  
 
-![](assets/images/deer-antler-letter-opener-photoshoot/20250223_150422.jpg)
+![Log carriage abandoned in woods](/assets/images/deer-antler-letter-opener-photoshoot/20250223_150422.jpg)
 *An old log carriage abandoned in the woods.*
 
-![](assets/images/deer-antler-letter-opener-photoshoot/20250223_150952.jpg)
+![Outside of old abandoned sawmill](/assets/images/deer-antler-letter-opener-photoshoot/20250223_150952.jpg)
 *The outside of the old sawmill, roof starting to cave in.*
 
-![](assets/images/deer-antler-letter-opener-photoshoot/20250223_151918.jpg)
+![Abandoned sawmill highlight](/assets/images/deer-antler-letter-opener-photoshoot/20250223_151918.jpg)
 *Interior of sawmill, planks and machines still in great condition.*
 
-![](assets/images/deer-antler-letter-opener-photoshoot/20250223_150903.jpg)
+![Deer antler letter opener showcase](/assets/images/deer-antler-letter-opener-photoshoot/20250223_150903.jpg)
 *A beautiful spot to highligh the knife's design.*
 
-![](assets/images/deer-antler-letter-opener-photoshoot/20250223_151616.jpg)
+![Machiner room](/assets/images/deer-antler-letter-opener-photoshoot/20250223_151616.jpg)
 *This machinery cannot have been used for long before abandonment.*
 
-![](assets/images/deer-antler-letter-opener-photoshoot/20250223_152053.jpg)
+![Deer antler letter opener close up](/assets/images/deer-antler-letter-opener-photoshoot/20250223_152053.jpg)
 *Close-up of the deer antler knife, on the old windowboard, still dirty and wet.*
 
 
