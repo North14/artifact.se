@@ -1,0 +1,50 @@
+[
+	{
+		"id": "http://zotero.org/users/10329859/items/DIZFTJKM",
+		"type": "thesis",
+		"event-place": "School of Informatics",
+		"genre": "Master's Thesis",
+		"number-of-pages": "31",
+		"publisher": "University of Skövde",
+		"publisher-place": "School of Informatics",
+		"title": "Implementation challenges in cloud services certification: ENISA cloud services scheme",
+		"URL": "https://urn.kb.se/resolve?urn=urn:nbn:se:his:diva-24517",
+		"author": [
+			{
+				"family": "Andersson",
+				"given": "Filip"
+			}
+		],
+		"issued": {
+			"date-parts": [
+				[
+					"2024"
+				]
+			]
+		}
+	},
+	{
+		"id": "http://zotero.org/users/10329859/items/SXWENB7E",
+		"type": "thesis",
+		"event-place": "School of Informatics",
+		"genre": "Bachelor's Thesis",
+		"number-of-pages": "57",
+		"publisher": "University of Skövde",
+		"publisher-place": "School of Informatics",
+		"title": "Cloud-native storage solutions for Kubernetes: A performance comparison",
+		"URL": "https://urn.kb.se/resolve?urn=urn:nbn:se:his:diva-22919",
+		"author": [
+			{
+				"family": "Andersson",
+				"given": "Filip"
+			}
+		],
+		"issued": {
+			"date-parts": [
+				[
+					"2023"
+				]
+			]
+		}
+	}
+]
