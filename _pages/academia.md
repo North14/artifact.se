@@ -10,7 +10,7 @@ permalink: "/academia.html"
   <p class="text-muted mb-5">A selection of my academic work published through the University of Skövde and available via DiVA.</p>
 
   <div class="row">
-    {% assign pubs = site.data.publications | sort: "issued.date-parts[0][0]" | reverse %}
+    {% assign pubs = site.data.Library | sort: "issued.date-parts[0][0]" | reverse %}
     {% for pub in pubs %}
     <div class="col-md-6 mb-4">
       <div class="card shadow-sm h-100">
