@@ -1,6 +1,6 @@
 # Site
 name: 'Artifact.se'
-description: 'Artifact is a personal blog about my random projects in tech, knifemaking, art, and spirituality.'
+description: 'Artifact is a personal blog about my random projects in tech, knifemaking, and art.'
 logo: 'assets/images/logo.png'
 baseurl: ''
 disqus: ''
@@ -22,7 +22,7 @@ authors:
       name:           Admin
       #      site:           https://www.artifact.se
       avatar:         assets/images/avatar1.jpg
-      bio:            "Cybersecurity student with a deep interest in tech, nature, cooking, art, and spirituality."
+      bio:            "Cybersecurity student with a deep interest in various topics such as knifemaking, tech, nature, cooking, and art."
       email:          admin@artifact.se
       twitter:        https://x.com/artifact_se
     chatgpt:
