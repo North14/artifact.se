@@ -5,7 +5,7 @@ date: 2025-05-15
 author: Filip
 categories: [woodworking, craftsmanship]
 tags: [woodworking, japanese, minimalism, handmade]
-image: "assets/images/japanese-tea-table/20250409_211605.jpg"
+image: "assets/images/japanese-tea-table/20250514_203100.jpg"
 ---
 
 # **A Japanese-Style Tea Table**  
