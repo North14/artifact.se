@@ -5,7 +5,7 @@ date: 2025-05-15
 author: admin
 categories: [knifemaking, craftsmanship]
 tags: [knives, craftsmanship, handmade]
-image: "assets/images/knifemaking-vise/20250502_144822.jpg"
+image: "assets/images/knifemaking-vise/20250504_145956.jpg"
 ---
 
 # **A Simple Vise for Knifemaking**  
@@ -38,20 +38,17 @@ Each image tells a part of the process: from the first welds to testing the grip
 ![Vise on the workbench](/assets/images/knifemaking-vise/20250502_144833.jpg)  
 *Sitting flush with the workbench—just as planned.*
 
-![Top view with bolts and spacers](/assets/images/knifemaking-vise/20250504_145956.jpg)  
-*Simple hardware used to create pressure.*
-
-![Close-up of the pressure plate](/assets/images/knifemaking-vise/20250504_150005.jpg)  
-*A small angle iron acts as the clamp face.*
-
 ![Polishing test](/assets/images/knifemaking-vise/20250502_162803.jpg)  
 *Testing the vise with an actual knife—stable under pressure.*
 
 ![Side angle showing base](/assets/images/knifemaking-vise/20250504_145857.jpg)  
 *Bolted into a heavy wooden base for extra stability.*
 
-![Finishing touches](/assets/images/knifemaking-vise/20250503_122659.jpg)  
-*Almost done—already seeing use.*
+![Top view with bolts and spacers](/assets/images/knifemaking-vise/20250504_145956.jpg)  
+*Simple hardware used to create pressure.*
+
+![Close-up of the pressure plate](/assets/images/knifemaking-vise/20250504_150005.jpg)  
+*A small angle iron acts as the clamp face.*
 
 ---
 
