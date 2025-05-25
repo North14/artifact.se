@@ -6,37 +6,37 @@ $yellow: darken($color-accent-2, 20%); // ~#CBCB57
 // Theme colors
 $theme-colors: (
   "primary": $color-primary, // #E07B39
-  "secondary": $color-tertiary-1, // #7B39E0
-  "success": $color-tertiary-2, // #39E07B
-  "info": $color-tertiary-3, // #39C4E0
+  "secondary": $color-accent-1, // #E6E18F
+  "success": $color-success, // #72D125
+  "info": $color-analogous-1, // #D65A31
   "warning": $yellow, // Darkened #FEFCAD
-  "danger": $color-analogous-1, // #D65A31
-  "light": $color-light, // #FAFAF8
-  "dark": $color-dark // #242325
+  "danger": $color-danger, // #FD2B6E
+  "light": $color-light-1, // #FAFAF8
+  "dark": $color-dark-1 // #242325
 );
 
 // Text colors for readability
 $theme-colors-text: (
-  "primary": $color-light,
-  "secondary": $color-light,
-  "success": $color-dark,
-  "info": $color-dark,
-  "warning": $color-dark,
-  "danger": $color-light,
-  "light": $color-dark,
-  "dark": $color-light
+  "primary": $color-light-1,
+  "secondary": $color-light-1,
+  "success": $color-dark-1,
+  "info": $color-dark-1,
+  "warning": $color-dark-1,
+  "danger": $color-light-1,
+  "light": $color-dark-1,
+  "dark": $color-light-1
 );
 
 // Hover colors
 $theme-colors-hover: (
   "primary": darken($color-primary, 10%), // #C66B32
-  "secondary": darken($color-tertiary-1, 10%), // #6C32C8
-  "success": darken($color-tertiary-2, 10%), // #318C6C
-  "info": darken($color-tertiary-3, 10%), // #31AFC8
+  "secondary": darken($color-accent-1, 10%), // #6C32C8
+  "success": darken($color-success, 10%), // #318C6C
+  "info": darken($color-analogous-1, 10%), // #31AFC8
   "warning": darken($yellow, 10%), // #B3B34D
-  "danger": darken($color-analogous-1, 10%), // #B9572A
-  "light": darken($color-light, 5%), // #E8E8E6
-  "dark": lighten($color-dark, 10%) // #3A393B
+  "danger": darken($color-danger, 10%), // #B9572A
+  "light": darken($color-light-1, 5%), // #E8E8E6
+  "dark": lighten($color-dark-1, 10%) // #3A393B
 );
 
 // Apply text and hover styles
@@ -58,8 +58,8 @@ $theme-colors-hover: (
 }
 
 // Core styles
-$body-bg: $color-light;
-$body-color: $color-dark;
+$body-bg: $color-light-1;
+$body-color: $color-dark-1;
 $link-color: $color-tertiary-2;
 $link-hover-color: darken($color-tertiary-2, 15%); // #2E6A60
 
@@ -73,7 +73,7 @@ $input-border-color: $color-analogous-2; // #F0A74A
 $input-focus-border-color: $color-primary; // #E07B39
 
 // Navbar
-$navbar-dark-color: $color-light;
+$navbar-dark-color: $color-light-1;
 $navbar-dark-hover-color: $color-tertiary-2;
 
 // Import Bootstrap
@@ -82,7 +82,7 @@ $navbar-dark-hover-color: $color-tertiary-2;
 // Styles from main.scss
 .btn-custom {
   background-color: $color-primary;
-  color: $color-light;
+  color: $color-light-1;
   &:hover {
     background-color: darken($color-primary, 10%);
   }
@@ -95,7 +95,7 @@ $navbar-dark-hover-color: $color-tertiary-2;
 .navbar {
   transition: top 0.2s ease-in-out;
   .nav-link {
-    color: $color-light;
+    color: $color-light-1;
     &:hover {
       color: $color-tertiary-2;
     }

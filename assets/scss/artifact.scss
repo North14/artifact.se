@@ -2,8 +2,10 @@
 $color-primary: #E07B39;        // Warm Orange
 $color-accent-1: #E6E18F;      // Pale Yellow
 $color-accent-2: #FEFCAD;      // Light Yellow
-$color-dark: #242325;          // Very Dark Gray
-$color-light: #FAFAF8;         // Very Light Gray
+$color-dark-1: #242325;         /* Very Dark Gray */
+$color-dark-2: #54433A;         /* Dark Gray */
+$color-light-1: #FAFAF8;        /* Very Light Gray */
+$color-light-2: #BBA79C;        /* Light Gray */
 $color-complementary: #399EE0;  // Medium Blue
 $color-analogous-1: #D65A31;    // Red-Orange
 $color-analogous-2: #F0A74A;    // Yellow-Orange
@@ -11,3 +13,6 @@ $color-analogous-accent: #D2E68F; // Green-Yellow
 $color-tertiary-1: #7B39E0;     // Blue-Violet
 $color-tertiary-2: #39E07B;     // Medium Green
 $color-tertiary-3: #39C4E0;     // Teal (Blue-Green)
+
+$color-success: #72d125; // Bright Green
+$color-danger: #fd2b6e;  // Bright Pink
