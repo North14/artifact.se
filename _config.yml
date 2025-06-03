@@ -1,6 +1,7 @@
 # Site
 name: 'Artifact.se'
 description: 'Artifact is a personal blog about my random projects in tech, knifemaking, and art.'
+motivational: 'The blacksmiths home only has wooden spoons.'
 logo: 'assets/images/logo.png'
 baseurl: ''
 disqus: ''
