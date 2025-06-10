@@ -29,9 +29,10 @@ description: "A great Jekyll theme developed by Sal @wowthemesnet."
                        {% endif %}
                        <div class="card-body">
                            <a href="{{ knife.url }}" class="text-decoration-none">
-                               <h4 class="card-title">{{ knife.title }}</h5>
+                               <h3 class="card-title">{{ knife.title }}</h3>
                            </a>
                            <p class="card-text">{{ knife.description | truncate: 100 }}</p>
+                           <div clas="">{{ knife.date | date "%B %d, %Y" }}</div>
                        </div>
                    </div>
                </div>
