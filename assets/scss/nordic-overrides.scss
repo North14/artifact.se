@@ -1,0 +1,188 @@
+// Nordic Overrides using modern Sass module system
+@use 'artifact' as *;
+
+// Nordic-specific overrides for Mundana theme
+body {
+  font-family: $font-family-serif;
+  background-color: $color-light-1;
+  color: $color-dark-1;
+}
+
+// Override Mundana's navbar
+.navbar {
+  background: linear-gradient(135deg, $color-dark-1 0%, $color-dark-2 100%) !important;
+  position: relative;
+  
+  &::before {
+    content: "ᚠᚢᚦᚨᚱᚲ";
+    position: absolute;
+    top: 10px;
+    right: 20px;
+    font-size: 1rem;
+    opacity: 0.3;
+    color: $color-primary;
+  }
+}
+
+// Override Mundana's brand
+.navbar-brand {
+  font-size: 2.5rem;
+  font-weight: bold;
+  color: $color-primary !important;
+  
+  &:hover {
+    color: $color-primary !important;
+  }
+  
+  // Add tagline
+  &::after {
+    content: "Nordic Craftsmanship • East Meets North";
+    display: block;
+    font-size: 0.4em;
+    color: $color-light-2;
+    font-style: italic;
+    font-weight: normal;
+  }
+}
+
+// Override Mundana's nav links
+.navbar-nav {
+  .nav-link {
+    color: $color-light-1 !important;
+    font-weight: 500;
+    padding: 0.5rem 1rem;
+    border-radius: 5px;
+    transition: all 0.3s ease;
+    
+    &:hover {
+      background-color: $color-analogous-1;
+      transform: translateY(-2px);
+      color: $color-light-1 !important;
+    }
+  }
+}
+
+// Hero section (add to your templates)
+.hero-section {
+  background: linear-gradient(135deg, $color-accent-2 0%, $color-accent-1 100%);
+  padding: 3rem;
+  border-radius: $nordic-border-radius;
+  margin: 3rem 0;
+  position: relative;
+  
+  &::after {
+    content: "ᚨᚱᛏᛁᚠᚨᚲᛏ";
+    position: absolute;
+    bottom: 20px;
+    right: 30px;
+    font-size: 1.5rem;
+    opacity: 0.2;
+    color: $color-dark-2;
+  }
+  
+  h1, h2 {
+    color: $color-dark-1;
+    margin-bottom: 1rem;
+  }
+  
+  p {
+    color: $color-dark-2;
+    font-size: 1.1rem;
+  }
+}
+
+// Override Mundana's cards
+.card {
+  border-radius: $nordic-border-radius;
+  box-shadow: $nordic-shadow;
+  transition: transform 0.3s ease;
+  border: none;
+  
+  &:hover {
+    transform: translateY(-5px);
+  }
+}
+
+// Override Mundana's post cards
+.post-card,
+.mb-4.d-flex {
+  @extend .card;
+}
+
+// Override category badges/tags
+.badge,
+.tag,
+.label {
+  background: $color-primary !important;
+  color: white !important;
+  padding: 0.3rem 0.8rem;
+  border-radius: 15px;
+  font-size: 0.8rem;
+  font-weight: 500;
+  border: none;
+}
+
+// Post titles
+.post-title {
+  a {
+    color: $color-dark-1;
+    text-decoration: none;
+    
+    &:hover {
+      color: $color-primary;
+    }
+  }
+}
+
+// Section titles
+.section-title,
+h2.section-title {
+  color: $color-dark-1;
+  border-bottom: 3px solid $color-primary;
+  padding-bottom: 0.5rem;
+}
+
+// Sidebar styling
+.sidebar-section {
+  background: white;
+  padding: 2rem;
+  border-radius: $nordic-border-radius;
+  box-shadow: 0 3px 10px rgba(0,0,0,0.1);
+  margin-bottom: 2rem;
+}
+
+.sidebar-title {
+  color: $color-dark-1;
+  margin-bottom: 1rem;
+  border-bottom: 2px solid $color-accent-1;
+  padding-bottom: 0.5rem;
+}
+
+// Footer
+.footer {
+  background: $color-dark-1;
+  color: $color-light-1;
+  
+  .footer-runes {
+    font-size: 1.5rem;
+    color: $color-primary;
+    margin-bottom: 1rem;
+    opacity: 0.7;
+    text-align: center;
+  }
+}
+
+// Responsive adjustments
+@media (max-width: 768px) {
+  .navbar::before {
+    display: none;
+  }
+  
+  .hero-section::after {
+    display: none;
+  }
+  
+  .navbar-brand::after {
+    font-size: 0.35em;
+  }
+}
