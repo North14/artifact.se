@@ -8,7 +8,7 @@
  */
 body {
   overflow-x: hidden;
-  padding-top: 69.75px;
+  padding-top: 0px;
 }
 
 .site-content {
@@ -1101,7 +1101,6 @@ body {
   background: linear-gradient(135deg, #FEFCAD 0%, #E6E18F 100%);
   padding: 3rem;
   border-radius: 10px;
-  margin: 3rem 0;
   position: relative;
 }
 .hero-section::after {

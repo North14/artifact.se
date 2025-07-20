@@ -1,6 +1,6 @@
 ---
 layout: knife
-title: "Nordic Hunter"
+title: "Example: Nordic Hunter"
 image: "assets/images/nordic-hunter.jpg"
 steel: "1095 High Carbon Steel"
 handle_material: "Reindeer Antler & Birch"
