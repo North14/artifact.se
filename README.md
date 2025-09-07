@@ -7,7 +7,6 @@ Welcome to the repository for **Artifact.se**, a Jekyll-powered blog showcasing 
 - [Features](#features)
 - [Setup](#setup)
 - [Usage](#usage)
-- [Directory Structure](#directory-structure)
 - [TODO List](#todo-list)
 - [Contributing](#contributing)
 - [License](#license)
@@ -62,31 +61,6 @@ To run the blog locally, follow these steps:
 - **Styling**: Modify SCSS files in `assets/scss` and compile using `sass` (included in `node_modules`).
 - **Drafts**: Store unpublished posts in `_drafts` and preview with `jekyll serve --drafts`.
 - **Tracking**: Analytics are included via `_includes/tracking-header.html` and `_includes/tracking-footer.html`.
-
-## Directory Structure
-```plaintext
-artifact.se/
-├── _posts/                             # Blog posts (e.g., knifemaking-vise, japanese-tea-table)
-├── _knives/                            # Knife project pages (e.g., masur-moose-cai-dao.md)
-├── _pages/                             # Static pages (e.g., about.md, knives.md)
-├── _layouts/                           # HTML templates (e.g., default.html, knife.html)
-├── _includes/                          # Reusable snippets (e.g., sidebar.html, search-lunr.html)
-├── _data/                              # Data files (e.g., Library.json)
-├── assets/                             # CSS, JS, images, and SCSS files
-├── _drafts/                            # Draft posts
-├── .jekyll-cache/                      # Jekyll cache for faster builds
-├── .obsidian/                          # Obsidian app configuration
-├── node_modules/                       # Node.js dependencies (e.g., bootstrap, jquery)
-├── .git/                               # Git repository data
-├── _config.yml                         # Jekyll configuration
-├── Gemfile                             # Ruby dependencies
-├── package.json                        # Node.js dependencies
-├── index.html                          # Homepage
-├── 404.html                            # Custom 404 page
-├── favicon.ico                         # Site favicon
-├── build_artifact                      # Build script (if applicable)
-└── README.md                           # This file
-```
 
 ## TODO List
 Below is a prioritized list of tasks to enhance Artifact.se:
