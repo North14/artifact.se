@@ -16,7 +16,7 @@ permalink: "/academia.html"
       <div class="card shadow-sm h-100">
         <div class="card-body">
           <h5 class="card-title">
-            <i class="fas fa-book-open text-secondary"></i> {{ pub.title }}
+            <i class="fas fa-book-open text-light"></i> {{ pub.title }}
           </h5>
           <ul class="list-unstyled text-muted small mb-3">
             <li><i class="fas fa-user"></i> {{ pub.author[0].given }} {{ pub.author[0].family }}</li>

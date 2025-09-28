@@ -21,18 +21,18 @@ plugins:
 authors:
     admin:
       name:           Admin
-      github:           https://www.github.com/North14
       avatar:         assets/images/profile_pic.jpg
       bio:            "Since high school, I've been fascinated by technology and computers. Over the years, I've delved into various areas such as programming, networking, and cybersecurity. My passion for learning has driven me to explore new technologies and stay updated with the latest trends in the tech world. In addition I have several hobbies including knifemaking, woodworking, and art."
-      email:          admin@artifact.se
+      email:          mailto:fandersson50@gmail.com
+      email-alt:      mailto:filip@artifact.se
       linkedin:       https://www.linkedin.com/in/foandersson
+      github:         https://www.github.com/North14
+      orcid:          https://orcid.org/0009-0001-2024-282X
     chatgpt:
       name:           ChatGpt
-      #      site:           https://www.artifact.se
+      site:           https://www.artifact.se
       avatar:         assets/images/avatar2.jpg
       bio:            "Content produced with the use of ChatGPT"
-      email:          admin@artifact.se
-      twitter:        https://x.com/artifact_se
 
 # Defaults
 defaults:
