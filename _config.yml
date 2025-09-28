@@ -21,11 +21,11 @@ plugins:
 authors:
     admin:
       name:           Admin
-      #      site:           https://www.artifact.se
-      avatar:         assets/images/avatar1.jpg
-      bio:            "Cybersecurity student with a deep interest in various topics such as knifemaking, tech, nature, cooking, and art."
+      github:           https://www.github.com/North14
+      avatar:         assets/images/profile_pic.jpg
+      bio:            "Since high school, I've been fascinated by technology and computers. Over the years, I've delved into various areas such as programming, networking, and cybersecurity. My passion for learning has driven me to explore new technologies and stay updated with the latest trends in the tech world. In addition I have several hobbies including knifemaking, woodworking, and art."
       email:          admin@artifact.se
-      twitter:        https://x.com/artifact_se
+      linkedin:       https://www.linkedin.com/in/foandersson
     chatgpt:
       name:           ChatGpt
       #      site:           https://www.artifact.se
