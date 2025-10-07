@@ -57,15 +57,27 @@ layout: default
             {% assign page_image = page.image | prepend: '/' %}
             {% assign image_folder = page_image | split: '/' | slice: 0, 4 | join: '/' | append: '/' %}
             {% assign main_image = page_image | split: '/' | last %}
-            
+            {% assign gallery_images = 0 %}
+
             {% for image in site.static_files %}
                 {% assign image_dir = image.path | split: '/' | slice: 0, 4 | join: '/' | append: '/' %}
                 {% if image_dir == image_folder and image.path != page.image %}
+                    {% assign gallery_images = gallery_images | plus: 1 %}
                     <div class="col-md-4 col-sm-6 mb-3">
                         <img class="img-fluid rounded" src="{{ site.baseurl }}{{ image.path }}" alt="Image: {{ image.path | split: '/' | last }}">
                     </div>
                 {% endif %}
             {% endfor %}
+
+            {% if gallery_images == 0 %}
+                <div class="col-12">
+                    <p class="text-muted text-center">No additional images available for this knife.</p>
+                </div>
+            {% endif %}
+        {% else %}
+            <div class="col-12">
+                <p class="text-muted text-center">No images available for this knife.</p>
+            </div>
         {% endif %}
     </div>
 </div>
