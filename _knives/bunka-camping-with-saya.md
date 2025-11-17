@@ -1,6 +1,6 @@
 ---
 layout: knife
-title: Nordic Cai Dao
+title: Bunka w/ Saya
 date: 2025-08-27
 categories:
   - Knives
