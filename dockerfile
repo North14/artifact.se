@@ -1,9 +1,16 @@
-FROM ruby:3.1
+FROM ruby:3.4
+
+RUN useradd -m -s /bin/bash jekyll
 
 WORKDIR /usr/src/app
-COPY . .
 
+COPY Gemfile Gemfile.lock ./
 RUN bundle install
+
+COPY . .
+RUN chown -R jekyll:jekyll //usr/src/app
+USER jekyll
+
 RUN bundle exec jekyll build
 
 EXPOSE 4000
